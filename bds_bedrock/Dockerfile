@@ -16,7 +16,7 @@ WORKDIR /data
 
 ENV LD_LIBRARY_PATH=/date
 
-EXPOSE 19132/udp
 EXPOSE 19133/udp
+EXPOSE 19134/udp
 
 CMD ["./bedrock_server"]
